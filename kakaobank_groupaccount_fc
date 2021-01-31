@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T15:38:07.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="w2FmhhEIXqYVbDHGOc5Q" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-31T16:06:35.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="K9oMqvG8gH-F8ws7k7cv" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="1580" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -695,6 +695,14 @@
         <mxCell id="0pSiWgHcTWGQzicxhzJY-0" value="&lt;font style=&quot;font-size: 28px&quot;&gt;&amp;lt;모임통장 초대 수락&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry x="860" y="30" width="250" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="egroCFvFFvun6p0xF90v" name="거래내역조회">
+    <mxGraphModel dx="1106" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Zd2UE2AVegvVS4lG3A0V-0" />
+        <mxCell id="Zd2UE2AVegvVS4lG3A0V-1" parent="Zd2UE2AVegvVS4lG3A0V-0" />
       </root>
     </mxGraphModel>
   </diagram>
