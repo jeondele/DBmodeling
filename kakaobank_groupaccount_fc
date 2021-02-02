@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T14:31:46.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="8joZ_73H1fLmSdVP4_1V" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-02T15:12:52.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="PydCUC9BtX-WWlJOynn-" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="1301" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
       <root>
         <mxCell id="EEb_hwMjHVPLPManEEZG-0" />
         <mxCell id="EEb_hwMjHVPLPManEEZG-1" parent="EEb_hwMjHVPLPManEEZG-0" />
-        <mxCell id="3aGhzJVp_l5HrjBsXHpl-0" value="&lt;font style=&quot;font-size: 28px&quot;&gt;&amp;lt;모임통장 초대장 발송&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
+        <mxCell id="3aGhzJVp_l5HrjBsXHpl-0" value="&lt;font style=&quot;font-size: 28px&quot;&gt;&amp;lt;모임통장 초대장 전송&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry x="20" y="30" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FgUZLY1ssavb-531vGiD-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="FgUZLY1ssavb-531vGiD-1" target="_lskrOmqGHZCOwn6xnip-1">
@@ -405,59 +405,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YDHkmIeGw7DFLh82F3dC-0" value="i = 1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="319" y="530" width="110" height="60" as="geometry" />
+          <mxGeometry x="319" y="550" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-0" value="i &amp;lt;= 초대할 친구 수" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="319" y="630" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8TB3YN6bLxGyuMY8TxXA-3" value="모임멤버 수 &lt;br&gt;+ 대기중인 친구 수&amp;nbsp; + 초대할 친구 수 &amp;lt;= 100 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="319" y="410" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8TB3YN6bLxGyuMY8TxXA-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;strokeWidth=1;shadow=0;labelBackgroundColor=none;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" target="bZKTVo5lRTIyvoUvE9iR-0">
-          <mxGeometry x="-0.2484" y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="429" y="449.40999999999997" as="sourcePoint" />
-            <mxPoint x="379" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="479" y="449" />
-              <mxPoint x="479" y="280" />
-              <mxPoint x="374" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8TB3YN6bLxGyuMY8TxXA-7" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="373.4099999999995" y="490" as="sourcePoint" />
-            <mxPoint x="373.4099999999995" y="530" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="319" y="650" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-8" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" target="8TB3YN6bLxGyuMY8TxXA-24">
           <mxGeometry x="-0.5072" y="16" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
-            <mxPoint x="373.4099999999994" y="710" as="sourcePoint" />
-            <mxPoint x="374" y="750" as="targetPoint" />
+            <mxPoint x="373.4099999999994" y="730" as="sourcePoint" />
+            <mxPoint x="374" y="770" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;endSize=8;fontSize=12;fontColor=#FF0000;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="8TB3YN6bLxGyuMY8TxXA-12" target="8TB3YN6bLxGyuMY8TxXA-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="374" y="920" />
-              <mxPoint x="269" y="920" />
-              <mxPoint x="269" y="610" />
-              <mxPoint x="374" y="610" />
+              <mxPoint x="374" y="940" />
+              <mxPoint x="269" y="940" />
+              <mxPoint x="269" y="630" />
+              <mxPoint x="374" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-12" value="i += 1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="319" y="840" width="110" height="60" as="geometry" />
+          <mxGeometry x="319" y="860" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-15" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="429" y="669.41" as="sourcePoint" />
-            <mxPoint x="479" y="669.41" as="targetPoint" />
+            <mxPoint x="429" y="689.41" as="sourcePoint" />
+            <mxPoint x="479" y="689.41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-19" value="초대할 친구 &lt;br&gt;만 14세 이상 ?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
@@ -487,10 +465,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8TB3YN6bLxGyuMY8TxXA-24" value="초대장 전송" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="314" y="750" width="120" height="50" as="geometry" />
+          <mxGeometry x="314" y="770" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bIMW1GArwIxawxFbLBwQ-0" value="계속" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="479" y="630" width="80" height="80" as="geometry" />
+          <mxGeometry x="479" y="650" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vOGHJoYtSyAyeT3dszHY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;endSize=8;fontSize=12;fontColor=#FF0000;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="bIMW1GArwIxawxFbLBwQ-1" target="vOGHJoYtSyAyeT3dszHY-1">
           <mxGeometry relative="1" as="geometry" />
@@ -682,6 +660,30 @@
         </mxCell>
         <mxCell id="0pSiWgHcTWGQzicxhzJY-0" value="&lt;font style=&quot;font-size: 28px&quot;&gt;&amp;lt;모임통장 초대&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry x="860" y="30" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ID5E099xy-LP4Vqc77fB-0" value="초대할 친구 수 &amp;gt; 50 ?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
+          <mxGeometry x="319" y="410" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ID5E099xy-LP4Vqc77fB-1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1">
+          <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="429" y="450" as="sourcePoint" />
+            <mxPoint x="516.5" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="509.5" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ID5E099xy-LP4Vqc77fB-2" value="종료" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
+          <mxGeometry x="516.5" y="430" width="76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ID5E099xy-LP4Vqc77fB-3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;strokeWidth=1;shadow=0;labelBackgroundColor=none;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" target="YDHkmIeGw7DFLh82F3dC-0">
+          <mxGeometry x="-0.0689" y="-13" relative="1" as="geometry">
+            <mxPoint x="13" y="13" as="offset" />
+            <mxPoint x="377" y="489.4299999999998" as="sourcePoint" />
+            <mxPoint x="449.5" y="489.93" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
