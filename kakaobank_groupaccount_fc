@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T15:49:30.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="XX2RXZRK53np-y7oeRjk" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-02T16:14:16.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ZclOf-YPP_F1kLXHIjHs" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="1301" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -733,6 +733,12 @@
             <mxPoint x="1641.2899999999997" y="160" as="sourcePoint" />
             <mxPoint x="1641.8799999999999" y="190" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XRaddFkL1xznDRmXxyBT-0" value="모임멤버 가능여부" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
+          <mxGeometry x="912" y="395" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XRaddFkL1xznDRmXxyBT-1" value="모임멤버 가능여부" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
+          <mxGeometry x="912" y="510" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
