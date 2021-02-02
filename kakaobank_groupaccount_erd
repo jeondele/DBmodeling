@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T10:55:07.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="_hf7vJyhjsp6rLAmkGVB" version="14.2.9" type="github">
-  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-02-02T10:58:44.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="I83IQcsx5ecJQh1dx4RQ" version="14.2.9" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="erd">
     <mxGraphModel dx="1577" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
@@ -579,7 +579,7 @@
         <mxCell id="OfZ1srBihN4PGDI9Twkp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=1;endArrow=ERzeroToOne;endFill=1;" parent="1" source="jqLhDBRoBaArQTaySHSf-222" target="jqLhDBRoBaArQTaySHSf-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4kZ1tZv2CZHf45DVoTQw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OfZ1srBihN4PGDI9Twkp-45" target="C-vyLk0tnHw3VtMMgP7b-13">
+        <mxCell id="4kZ1tZv2CZHf45DVoTQw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=1;" edge="1" parent="1" source="OfZ1srBihN4PGDI9Twkp-45" target="C-vyLk0tnHw3VtMMgP7b-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="540" />
@@ -587,7 +587,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4kZ1tZv2CZHf45DVoTQw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OfZ1srBihN4PGDI9Twkp-45" target="C-vyLk0tnHw3VtMMgP7b-23">
+        <mxCell id="4kZ1tZv2CZHf45DVoTQw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=1;" edge="1" parent="1" source="OfZ1srBihN4PGDI9Twkp-45" target="C-vyLk0tnHw3VtMMgP7b-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OfZ1srBihN4PGDI9Twkp-45" value="모임통장 초대장" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
