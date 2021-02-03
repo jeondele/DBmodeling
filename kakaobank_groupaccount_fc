@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T15:41:46.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="REfyBMIO8J18QAXAYTeL" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-03T15:53:44.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="nKYQiCY4ciURK5he0JCU" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="1843" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -919,8 +919,29 @@
         <mxCell id="xo26anaLifKnufXqzbRf-4" value="거래내역 음영처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zd2UE2AVegvVS4lG3A0V-1">
           <mxGeometry x="480" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xo26anaLifKnufXqzbRf-6" value="모임주 여부 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Zd2UE2AVegvVS4lG3A0V-1">
+        <mxCell id="xo26anaLifKnufXqzbRf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.432;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zd2UE2AVegvVS4lG3A0V-1" source="xo26anaLifKnufXqzbRf-6" target="CeUriVf52wU2zeDiHnKA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xo26anaLifKnufXqzbRf-6" value="모임통장 계좌번호&amp;nbsp; 여부 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Zd2UE2AVegvVS4lG3A0V-1">
           <mxGeometry x="1113" y="550" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xo26anaLifKnufXqzbRf-7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="Zd2UE2AVegvVS4lG3A0V-1" target="xo26anaLifKnufXqzbRf-8">
+          <mxGeometry x="0.1162" y="-19" relative="1" as="geometry">
+            <mxPoint x="-16" y="-9" as="offset" />
+            <mxPoint x="1201.57" y="588.8199999999999" as="sourcePoint" />
+            <mxPoint x="1290" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1246" y="589" />
+              <mxPoint x="1246" y="600" />
+              <mxPoint x="1330" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xo26anaLifKnufXqzbRf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.69;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Zd2UE2AVegvVS4lG3A0V-1" source="xo26anaLifKnufXqzbRf-8" target="CeUriVf52wU2zeDiHnKA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xo26anaLifKnufXqzbRf-8" value="회비내역상세조회" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zd2UE2AVegvVS4lG3A0V-1">
+          <mxGeometry x="1400" y="555" width="120" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
