@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T15:34:29.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="kQl0lSdEO4mLyR98UOqj" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-03T15:41:46.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="REfyBMIO8J18QAXAYTeL" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="1843" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -918,6 +918,9 @@
         </mxCell>
         <mxCell id="xo26anaLifKnufXqzbRf-4" value="거래내역 음영처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zd2UE2AVegvVS4lG3A0V-1">
           <mxGeometry x="480" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xo26anaLifKnufXqzbRf-6" value="모임주 여부 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Zd2UE2AVegvVS4lG3A0V-1">
+          <mxGeometry x="1113" y="550" width="90" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
