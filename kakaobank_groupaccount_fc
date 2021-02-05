@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T13:52:51.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="LqlHdUfTZ1RhWahf-G48" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-05T13:53:27.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="VGrHAgdFPmE8wReLCceq" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
-    <mxGraphModel dx="1580" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2407" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -349,10 +349,10 @@
           <mxGeometry x="1955" y="145" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zUgq0lWSvH0hlXFc8mZP-0" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="355" y="1130" width="80" height="30" as="geometry" />
+          <mxGeometry x="355" y="1130" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zUgq0lWSvH0hlXFc8mZP-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2380" y="437" width="120" height="30" as="geometry" />
+          <mxGeometry x="2368.5" y="435" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5uJBw1SeVwL0_m1jn0gX-1" value="&lt;font color=&quot;#cc6600&quot; style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;이외의 계좌상태코드 = 0.정상&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=20;size=20;position=0.08;position2=0;fillColor=none;strokeColor=#FF8000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="620" width="260" height="240" as="geometry" />
@@ -365,6 +365,12 @@
         </mxCell>
         <mxCell id="5uJBw1SeVwL0_m1jn0gX-19" value="&lt;ul style=&quot;font-size: 17px&quot;&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;&lt;span style=&quot;font-size: 17px ; text-align: center&quot;&gt;대출 이용 계좌&lt;/span&gt;&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;원리금납부등의 대출 활용 계좌&lt;/li&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;사고신고 계좌&lt;/li&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;공동명의 계좌&lt;/li&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;비활성 계좌&lt;/li&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;거래제한 계좌&lt;/li&gt;&lt;li style=&quot;font-size: 17px&quot;&gt;저금통이용 계좌&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=17;fontColor=#CC6600;spacing=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="630" width="250" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="uOnpTLqVxkDK7OP9xlBy-0" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="10" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uOnpTLqVxkDK7OP9xlBy-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="-30" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
