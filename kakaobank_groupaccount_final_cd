@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T11:45:29.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="cMRgmQuthHFcksxdRdjF" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T12:34:12.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="_lOFI9K9wJ5n78Jcitck" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2178" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-346" value="1" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontSize=16;labelPosition=left;verticalLabelPosition=middle;" parent="K7b6GKjF9_Bg7UgCR7Pe-323" vertex="1" connectable="0">
           <mxGeometry x="-0.51" relative="1" as="geometry">
-            <mxPoint x="-5" y="4.83" as="offset" />
+            <mxPoint x="-5" y="40.589999999999996" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-347" value="0..130" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="K7b6GKjF9_Bg7UgCR7Pe-323" vertex="1" connectable="0">
@@ -22,7 +22,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-0" value="카카오뱅크 고객" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-355" y="-490" width="280" height="554" as="geometry">
+          <mxGeometry x="-355" y="-490" width="280" height="580" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -35,59 +35,62 @@
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-4" value="- 모임통장참여수 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-135" value="- 모임통장참여가능수 : int = 30" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-4" value="- 카카오계정연결여부 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-134" value="- 모임주통장개설가능수 : int = 100" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-135" value="- 모임통장참여가능수 : int = 30" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="130" width="280" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-134" value="- 모임주통장개설가능수 : int = 100" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+          <mxGeometry y="156" width="280" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
-          <mxGeometry y="156" width="280" height="8" as="geometry" />
+          <mxGeometry y="182" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-6" value="+ set모임통장개설수(int) &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
-          <mxGeometry y="164" width="280" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-282" value="+ get모임통장개설수() &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="190" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-10" value="+ 모임주가능여부() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-282" value="+ get모임통장개설수() &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="216" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-17" value="+ 비밀번호체크(String) : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-10" value="+ 모임주가능여부() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="242" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-161" value="+ 계좌목록조회() : ArrayList&lt;계좌&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-17" value="+ 비밀번호체크(String) : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="268" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-156" value="+ 모임통장가능계좌목록조회() : ArrayList&lt;계좌&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-161" value="+ 계좌목록조회() : ArrayList&lt;계좌&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="294" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yEUf-PGKXM4yZ1JsGC05-1" value="+ 카카오톡친구목록조회(String) : ArrayList&lt;String&gt;" style="text;align=left;verticalAlign=top;spacingLeft=2;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-156" value="+ 모임통장가능계좌목록조회() : ArrayList&lt;계좌&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="320" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-11" value="+ 모임멤버가능체크() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-1" value="+ 카카오톡친구목록조회(String) : ArrayList&lt;String&gt;" style="text;align=left;verticalAlign=top;spacingLeft=2;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
           <mxGeometry y="346" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-7" value="+ set모임통장참여수(int)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-11" value="+ 모임멤버가능체크() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="372" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-283" value="+ get모임통장참여수()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-7" value="+ set모임통장참여수(int)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="398" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-279" value="+ get생년월일() : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-283" value="+ get모임통장참여수()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="424" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-285" value="+ 모임통장참여수체크() :boolean&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=2;spacingRight=4;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-279" value="+ get생년월일() : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="450" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-284" value="+ 만14세이상체크() :boolean&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=2;spacingRight=4;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-285" value="+ 모임통장참여수체크() :boolean&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=2;spacingRight=4;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="476" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yEUf-PGKXM4yZ1JsGC05-2" value="+ 카카오뱅크고객추가()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-284" value="+ 만14세이상체크() :boolean&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=2;spacingRight=4;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="502" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yEUf-PGKXM4yZ1JsGC05-3" value="+ 카카오계정연결여부변경() " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-2" value="+ 카카오뱅크고객추가()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
           <mxGeometry y="528" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-3" value="+ 카카오계정연결여부변경() " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
+          <mxGeometry y="554" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=13;endArrow=open;endFill=0;endSize=13;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-23" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -162,71 +165,86 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-41" value="계좌" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-195" y="120" width="232.5" height="190" as="geometry">
+          <mxGeometry x="-195" y="120" width="232.5" height="268" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-45" value="- 계좌유형구분코드 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-45" value="- 고객식별번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
           <mxGeometry y="26" width="232.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-181" value="- 모임통장전환여부 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-18" value="- 계좌유형구분코드 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-41">
           <mxGeometry y="52" width="232.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-50" value="- 모임통장계좌번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-181" value="- 모임통장전환여부 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
           <mxGeometry y="78" width="232.5" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-50" value="- 모임통장계좌번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
+          <mxGeometry y="104" width="232.5" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-51" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
-          <mxGeometry y="104" width="232.5" height="8" as="geometry" />
+          <mxGeometry y="130" width="232.5" height="8" as="geometry" />
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-158" value="+ get계좌유형구분코드() : String&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
-          <mxGeometry y="112" width="232.5" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-159" value="+ get모임통장전환여부() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
           <mxGeometry y="138" width="232.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-182" value="+ set모임통장계좌번호(String)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-159" value="+ get모임통장전환여부() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
           <mxGeometry y="164" width="232.5" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-182" value="+ set모임통장계좌번호(String)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-41" vertex="1">
+          <mxGeometry y="190" width="232.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-13" value="+ 계좌주체크(String) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-41">
+          <mxGeometry y="216" width="232.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-14" value="+ 모임통장여부체크() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-41">
+          <mxGeometry y="242" width="232.5" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-68" value="계좌거래내역" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-552.5" y="530" width="590" height="300" as="geometry">
+          <mxGeometry x="-552.5" y="530" width="590" height="346" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-69" value="- 계좌번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-69" value="- 계좌 : 계좌" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="26" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-109" value="- 거래일자 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-16" value="- 고객식별번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-68">
           <mxGeometry y="52" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-110" value="- 거래일련번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-109" value="- 거래일자 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="78" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-74" value="- 조회시작일자 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-110" value="- 거래일련번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="104" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-75" value="- 조회종료일자 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-74" value="- 조회시작일자 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="130" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-76" value="- 거래유형 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-75" value="- 조회종료일자 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="156" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-77" value="- 거래내역정렬 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-76" value="- 거래유형 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="182" width="590" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-78" value="- 검색어 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-77" value="- 거래내역정렬 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="208" width="590" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-78" value="- 검색어 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+          <mxGeometry y="234" width="590" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-80" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
-          <mxGeometry y="234" width="590" height="8" as="geometry" />
+          <mxGeometry y="260" width="590" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-98" value="+ 거래내역일반조회(계좌번호, 조회시작일자, 조회종료일자 , 거래유형, 거래내역정렬, 검색어) : ArrayLIst&lt;계좌거래내역&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
-          <mxGeometry y="242" width="590" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-99" value="+ 거래내역상세조회(계좌번호, 거래일자, 거래일련번호) : 계좌거래내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-98" value="+ 거래내역일반조회(HashMap&lt;String, String&gt;) : ArrayLIst&lt;계좌거래내역&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
           <mxGeometry y="268" width="590" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-99" value="+ 거래내역상세조회(HashMap&lt;String, String&gt;) : 계좌거래내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-68" vertex="1">
+          <mxGeometry y="294" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-17" value="+ 계좌주체크(HashMap&lt;String,String&gt;) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-68">
+          <mxGeometry y="320" width="590" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-81" value="모임통장회비내역" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="107.5" y="530" width="612.5" height="268" as="geometry">
+          <mxGeometry x="111.25" y="520" width="612.5" height="250" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -245,23 +263,20 @@
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-85" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
           <mxGeometry y="130" width="612.5" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-101" value="+ 멤버별회비입금내역조회(String, String , String ) : HashMap&lt;String, ArrayList&lt;String , BigDecimal&gt;&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-101" value="+ 멤버별회비입금내역조회(HashMap&lt;String, String&gt; ) : HashMap&lt;String, ArrayList&lt;String , BigDecimal&gt;&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
           <mxGeometry y="138" width="612.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-103" value="+ 회비입금상세내역조회(String, String , String ) : ArrayList&lt;모임통장회비내역&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-103" value="+ 회비입금상세내역조회(HashMap&lt;String, String&gt;) : ArrayList&lt;모임통장회비내역&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
           <mxGeometry y="164" width="612.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-104" value="+ 기간별회비입금내역조회(String , String ) : HashMap&lt;String, BigDecimal&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-104" value="+ 기간별회비입금내역조회(HashMap&lt;String, String&gt;) : HashMap&lt;String, BigDecimal&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
           <mxGeometry y="190" width="612.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-105" value="+ 회비내역상세조회(String, String, String ) : 모임통장회비내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-105" value="+ 회비내역상세조회(HashMap&lt;String, String&gt;) : 모임통장회비내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
           <mxGeometry y="216" width="612.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-302" value="+ 모임통장해지여부(모임통장계좌번호) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-81" vertex="1">
-          <mxGeometry y="242" width="612.5" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-86" value="카카오톡 고객" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-730" y="-430" width="270" height="120" as="geometry">
+          <mxGeometry x="-700" y="-459" width="270" height="120" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -324,13 +339,23 @@
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-127" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K7b6GKjF9_Bg7UgCR7Pe-124" vertex="1">
           <mxGeometry y="52" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=13;exitX=-0.015;exitY=1.363;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-50" edge="1">
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=13;exitX=-0.015;exitY=1.363;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-220" y="167" as="sourcePoint" />
-            <mxPoint x="-215" y="60" as="targetPoint" />
+            <mxPoint x="-215" y="90" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-215" y="233" />
+              <mxPoint x="-215" y="259" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="K7b6GKjF9_Bg7UgCR7Pe-160">
+          <mxGeometry x="0.8231" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-2.41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-12" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="K7b6GKjF9_Bg7UgCR7Pe-160">
+          <mxGeometry x="-0.7409" y="2" relative="1" as="geometry">
+            <mxPoint x="-3.0600000000000023" y="17.660000000000004" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;startArrow=open;startFill=0;startSize=14;endArrow=none;endFill=0;endSize=13;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-162" edge="1">
@@ -349,7 +374,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-162" value="모임통장" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="287.5" y="-10" width="300" height="320" as="geometry">
+          <mxGeometry x="287.5" y="-10" width="300" height="346" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -389,6 +414,9 @@
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-287" value="&amp;nbsp;+ 모임통장멤버수체크() :boolean&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="K7b6GKjF9_Bg7UgCR7Pe-162" vertex="1">
           <mxGeometry y="294" width="300" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-302" value="+ 모임통장해지여부(String) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="K7b6GKjF9_Bg7UgCR7Pe-162" vertex="1">
+          <mxGeometry y="320" width="300" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-207" value="모임원" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-130" y="-650" width="205" height="60" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
@@ -399,9 +427,6 @@
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-320" value="&amp;nbsp;+ 모임원추가()" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-207" vertex="1">
           <mxGeometry y="34" width="205" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.012;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=13;endArrow=open;endFill=0;endSize=13;fontSize=16;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-134" target="K7b6GKjF9_Bg7UgCR7Pe-278" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=14;endArrow=open;endFill=0;endSize=13;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-320" target="K7b6GKjF9_Bg7UgCR7Pe-164" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -500,11 +525,19 @@
         <mxCell id="n95A-oUln13tWJIJOgHp-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-680" y="-1169" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="w3n_gDeQIq2yHfpOlOOs-16" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="730" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="yEUf-PGKXM4yZ1JsGC05-0" value="&lt;h1&gt;&amp;lt;Class Diagram&amp;gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-750" y="-1110" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="K7b6GKjF9_Bg7UgCR7Pe-4" target="K7b6GKjF9_Bg7UgCR7Pe-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=13;fontSize=16;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yEUf-PGKXM4yZ1JsGC05-2" target="K7b6GKjF9_Bg7UgCR7Pe-304">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="51" />
+              <mxPoint x="80" y="115" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
