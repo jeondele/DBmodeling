@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T14:08:34.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Y-9C1HHn5Yx-SRW3YBim" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T14:14:20.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="25L10i528nDK1b1WUFI8" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2404" dy="2154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-156" value="+ 모임통장가능계좌목록조회() : ArrayList&lt;계좌&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
           <mxGeometry y="320" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yEUf-PGKXM4yZ1JsGC05-1" value="+ 카카오톡친구목록조회(String) : ArrayList&lt;String&gt;" style="text;align=left;verticalAlign=top;spacingLeft=2;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
+        <mxCell id="yEUf-PGKXM4yZ1JsGC05-1" value="+ 회원가입() " style="text;align=left;verticalAlign=top;spacingLeft=2;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="K7b6GKjF9_Bg7UgCR7Pe-0">
           <mxGeometry y="346" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K7b6GKjF9_Bg7UgCR7Pe-11" value="+ 모임멤버가능체크() : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="K7b6GKjF9_Bg7UgCR7Pe-0" vertex="1">
