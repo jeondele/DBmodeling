@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T14:00:35.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="hQaZ1CJDR8c34nDIYVCI" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-05T14:01:51.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="rE_X9eAquvrFDSudWOfO" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="4514" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -376,7 +376,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="001IFhpjfzs15TuDaXE5" name="모임통장초대">
-    <mxGraphModel dx="3592" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4514" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EEb_hwMjHVPLPManEEZG-0" />
         <mxCell id="EEb_hwMjHVPLPManEEZG-1" parent="EEb_hwMjHVPLPManEEZG-0" />
@@ -557,10 +557,10 @@
           <mxGeometry x="140" y="145" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-5ywNOy9skSA0DMDlp88-0" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="1010.12" y="1310" width="80" height="80" as="geometry" />
+          <mxGeometry x="1010.12" y="1350" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-5ywNOy9skSA0DMDlp88-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="2380" y="612.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="2380" y="612.5" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hdfIFgNVNhqVVP-yyTMi-0" value="&lt;font color=&quot;#003366&quot;&gt;한 번에 초대가능한 멤버수 50명 제한 존재&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=14;size=30;position=0.77;position2=0.92;fillColor=none;base=30;strokeColor=#007FFF;fontColor=#007FFF;fontStyle=1" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry x="70.5" y="460" width="260" height="80" as="geometry" />
@@ -921,10 +921,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="50L6PHapS9eMrkei1g0w-124" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="-59.999999999999886" width="80" height="80" as="geometry" />
+          <mxGeometry x="-99.99999999999989" y="-10" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="50L6PHapS9eMrkei1g0w-125" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
-          <mxGeometry x="60.000000000000114" y="-50" width="80" height="80" as="geometry" />
+          <mxGeometry x="60.000000000000114" y="-100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-jRiwQ7BSlcTZz34Go6P-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.201;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;fontColor=#000000;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="-jRiwQ7BSlcTZz34Go6P-0" target="50L6PHapS9eMrkei1g0w-10">
           <mxGeometry relative="1" as="geometry" />
