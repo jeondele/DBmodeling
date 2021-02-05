@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T11:48:02.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="7woMFaV5QXL12xjSqPTa" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-05T11:48:47.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="aT7n6P6jssrchuiGPjKa" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
     <mxGraphModel dx="1580" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="001IFhpjfzs15TuDaXE5" name="모임통장초대">
-    <mxGraphModel dx="1933" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3592" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EEb_hwMjHVPLPManEEZG-0" />
         <mxCell id="EEb_hwMjHVPLPManEEZG-1" parent="EEb_hwMjHVPLPManEEZG-0" />
@@ -919,6 +919,12 @@
         </mxCell>
         <mxCell id="50L6PHapS9eMrkei1g0w-125" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry x="60.000000000000114" y="-50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-jRiwQ7BSlcTZz34Go6P-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.201;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;fontColor=#000000;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="-jRiwQ7BSlcTZz34Go6P-0" target="50L6PHapS9eMrkei1g0w-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-jRiwQ7BSlcTZz34Go6P-0" value="카카오계정연결여부변경" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
+          <mxGeometry x="894" y="780" width="122" height="39.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
