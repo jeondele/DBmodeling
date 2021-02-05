@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T11:44:05.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="jWeEA_elrvDR5-zFLxUR" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-05T11:48:02.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="7woMFaV5QXL12xjSqPTa" version="14.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="모임통장전환">
-    <mxGraphModel dx="1843" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="001IFhpjfzs15TuDaXE5" name="모임통장초대">
-    <mxGraphModel dx="3592" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1933" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EEb_hwMjHVPLPManEEZG-0" />
         <mxCell id="EEb_hwMjHVPLPManEEZG-1" parent="EEb_hwMjHVPLPManEEZG-0" />
@@ -836,8 +836,10 @@
         <mxCell id="50L6PHapS9eMrkei1g0w-72" value="카카오계정 연결여부?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="EEb_hwMjHVPLPManEEZG-1">
           <mxGeometry x="1060.5" y="700" width="128" height="59.5" as="geometry" />
         </mxCell>
-        <mxCell id="50L6PHapS9eMrkei1g0w-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;fontColor=#000000;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="50L6PHapS9eMrkei1g0w-74" target="50L6PHapS9eMrkei1g0w-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="50L6PHapS9eMrkei1g0w-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=8;fontColor=#000000;" edge="1" parent="EEb_hwMjHVPLPManEEZG-1" source="50L6PHapS9eMrkei1g0w-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="955" y="780" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="50L6PHapS9eMrkei1g0w-101" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="50L6PHapS9eMrkei1g0w-83">
           <mxGeometry x="-0.749" relative="1" as="geometry">
