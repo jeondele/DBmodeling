@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T15:40:26.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="uJ-e_TEhrZPT1A8_cJkl" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-13T07:14:17.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="p651o4f9ZDwFvTgNixfC" version="14.3.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2587" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2320" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -478,6 +478,14 @@
         <mxCell id="1jmZNjXqewlWRJUcZKh3-24" value="모임통장계좌번호만 만 가져다 씀 연관일 필요 x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="-190" width="310" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EfBGofLrWB1OSfvp6KSd" name="Page-2">
+    <mxGraphModel dx="896" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ftHK8F7_Cp_hr9kThk05-0" />
+        <mxCell id="ftHK8F7_Cp_hr9kThk05-1" parent="ftHK8F7_Cp_hr9kThk05-0" />
       </root>
     </mxGraphModel>
   </diagram>
