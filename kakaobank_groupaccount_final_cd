@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-13T17:14:53.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="c_W7xYqiaa0BQVWs_Wz2" version="14.3.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-13T17:31:34.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="A4j98eUY8ToKKV9XMEen" version="14.3.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="3467" dy="2637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,7 +475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EfBGofLrWB1OSfvp6KSd" name="전환">
-    <mxGraphModel dx="2939" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ftHK8F7_Cp_hr9kThk05-0" />
         <mxCell id="ftHK8F7_Cp_hr9kThk05-1" parent="ftHK8F7_Cp_hr9kThk05-0" />
@@ -687,7 +687,7 @@
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-0" />
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-1" parent="OwpPu2Ggg8p8ATQKgT0D-0" />
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-2" value="카카오뱅크고객" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="OwpPu2Ggg8p8ATQKgT0D-1">
-          <mxGeometry x="-490" y="290" width="260" height="138" as="geometry">
+          <mxGeometry x="-480" y="290" width="260" height="138" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -703,7 +703,7 @@
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-6" value="+ 모임통장가능계좌목록조회() : ArrayList&lt;계좌&gt;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OwpPu2Ggg8p8ATQKgT0D-2">
           <mxGeometry y="86" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OwpPu2Ggg8p8ATQKgT0D-7" value="+ 모임주가능체크(고객) : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OwpPu2Ggg8p8ATQKgT0D-2">
+        <mxCell id="OwpPu2Ggg8p8ATQKgT0D-7" value="+ 모임주가능체크() : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OwpPu2Ggg8p8ATQKgT0D-2">
           <mxGeometry y="112" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=0;endSize=16;strokeColor=#000000;fontSize=16;fontColor=#000000;" edge="1" parent="OwpPu2Ggg8p8ATQKgT0D-1" source="OwpPu2Ggg8p8ATQKgT0D-9" target="OwpPu2Ggg8p8ATQKgT0D-21">
@@ -782,11 +782,12 @@
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-29" value="모임주는 모임통장에 종속적. 모임통장이 없어지면 모임주도 없어진다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="OwpPu2Ggg8p8ATQKgT0D-1">
           <mxGeometry x="123" y="643" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OwpPu2Ggg8p8ATQKgT0D-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.284;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=open;startFill=0;endSize=16;startSize=16;dashed=1;" edge="1" parent="OwpPu2Ggg8p8ATQKgT0D-1" source="OwpPu2Ggg8p8ATQKgT0D-30" target="OwpPu2Ggg8p8ATQKgT0D-7">
+        <mxCell id="OwpPu2Ggg8p8ATQKgT0D-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=open;startFill=0;endSize=16;startSize=16;dashed=1;" edge="1" parent="OwpPu2Ggg8p8ATQKgT0D-1" source="OwpPu2Ggg8p8ATQKgT0D-30">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-351" y="429" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-350" y="470" />
-              <mxPoint x="-416" y="470" />
+              <mxPoint x="-351" y="429" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -830,7 +831,7 @@
         </mxCell>
         <mxCell id="OwpPu2Ggg8p8ATQKgT0D-40" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#000000;" vertex="1" connectable="0" parent="OwpPu2Ggg8p8ATQKgT0D-39">
           <mxGeometry x="-0.057" y="-1" relative="1" as="geometry">
-            <mxPoint x="-4" as="offset" />
+            <mxPoint x="-4" y="-5.219999999999999" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
