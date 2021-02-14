@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T16:15:23.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="SKr8D3nAkeE1eJmaq_k8" version="14.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-14T16:16:34.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="Q_yVG8voBoMr4bHhTWar" version="14.3.1" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="1883" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1023,7 +1023,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PCY_Tt3skDkiPVRy4twd" name="초대변경">
-    <mxGraphModel dx="2587" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1883" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vM6hyfb5T2TM709eY3Sv-0" />
         <mxCell id="vM6hyfb5T2TM709eY3Sv-1" parent="vM6hyfb5T2TM709eY3Sv-0" />
@@ -1038,12 +1038,12 @@
         </mxCell>
         <mxCell id="TsXScZ9Vrs_7aZ2Hn5MH-1" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TsXScZ9Vrs_7aZ2Hn5MH-0">
           <mxGeometry x="-0.6364" y="2" relative="1" as="geometry">
-            <mxPoint x="18" y="-1.0300000000000002" as="offset" />
+            <mxPoint x="18" y="-30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TsXScZ9Vrs_7aZ2Hn5MH-2" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TsXScZ9Vrs_7aZ2Hn5MH-0">
           <mxGeometry x="0.5615" relative="1" as="geometry">
-            <mxPoint x="20" as="offset" />
+            <mxPoint x="20" y="28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OzISZ9jWhMO4fCg0q2pO-31" value="모임멤버초대장" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="vM6hyfb5T2TM709eY3Sv-1">
@@ -1157,7 +1157,7 @@
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjGH2hCgJ7rLxj168PWG-4" value="+ 보내기(Map&lt;String,List&lt;String&gt;)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IjGH2hCgJ7rLxj168PWG-3">
+        <mxCell id="IjGH2hCgJ7rLxj168PWG-4" value="+ 보내기(Map&lt;String,List&lt;String&gt;&gt;)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IjGH2hCgJ7rLxj168PWG-3">
           <mxGeometry y="40" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IqksWiMQgihdjjVvm51P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;startSize=16;endArrow=block;endFill=0;endSize=16;" edge="1" parent="vM6hyfb5T2TM709eY3Sv-1" source="IjGH2hCgJ7rLxj168PWG-5">
@@ -1191,7 +1191,7 @@
         <mxCell id="_WBQ3_LxzxWHrYVJGRkn-1" value="+ 초대장취소여부변경(모임통장계좌번호 : String, 고객식별번호 : String) : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IjGH2hCgJ7rLxj168PWG-5">
           <mxGeometry y="164" width="570" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IjGH2hCgJ7rLxj168PWG-13" value="+ 보내기(Map&lt;String,List&lt;String&gt;) : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IjGH2hCgJ7rLxj168PWG-5">
+        <mxCell id="IjGH2hCgJ7rLxj168PWG-13" value="+ 보내기(Map&lt;String,List&lt;String&gt;&gt;) : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="IjGH2hCgJ7rLxj168PWG-5">
           <mxGeometry y="190" width="570" height="26" as="geometry" />
         </mxCell>
         <mxCell id="IjGH2hCgJ7rLxj168PWG-16" value="+ 모임멤버초대장취소여부조회(모임통장계좌번호 : String, 고객식별번호 : String, 초대일련번호 : String) : String&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="IjGH2hCgJ7rLxj168PWG-5">
@@ -1212,7 +1212,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1180" y="187" />
-              <mxPoint x="1180" y="557" />
+              <mxPoint x="1180" y="531" />
             </Array>
           </mxGeometry>
         </mxCell>
