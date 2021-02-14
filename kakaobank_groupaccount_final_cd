@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T15:56:27.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="tqd67do6GKDUHCT6QBbs" version="14.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-14T15:57:48.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="8y6rAg0Kp3E-LUxpY8qn" version="14.3.1" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="1883" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1017,7 +1017,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PCY_Tt3skDkiPVRy4twd" name="초대변경">
-    <mxGraphModel dx="2939" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2587" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vM6hyfb5T2TM709eY3Sv-0" />
         <mxCell id="vM6hyfb5T2TM709eY3Sv-1" parent="vM6hyfb5T2TM709eY3Sv-0" />
@@ -1425,6 +1425,9 @@
           <mxGeometry x="0.5258" y="2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vQ3E2KRN714SNsKdwyPn-0" value="Mapper로서 조회가능한 것들 끼리는 연결 관계 없음" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="vM6hyfb5T2TM709eY3Sv-1">
+          <mxGeometry x="-505" y="20" width="430" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
