@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T17:13:14.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="IlSRnDRxsZhoLyvUsnRe" version="14.3.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-14T17:18:26.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="AwtQ8N_84DzlYdIlazZb" version="14.3.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="2939" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1698,30 +1698,30 @@
       <root>
         <mxCell id="37L7gK0ANYs0gC062Z_h-0" />
         <mxCell id="37L7gK0ANYs0gC062Z_h-1" parent="37L7gK0ANYs0gC062Z_h-0" />
-        <mxCell id="UEXY8j-FqXEDNN03uM83-0" value="계좌거래조회" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-0" value="계좌거래조회" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
           <mxGeometry x="774" y="310" width="866" height="218" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UEXY8j-FqXEDNN03uM83-1" value="- 계좌번호 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-1" value="- 계좌거래내역Transaction : 계좌거래내역Transaction" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
           <mxGeometry y="26" width="866" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UEXY8j-FqXEDNN03uM83-2" value="- 계좌유형구분코드 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-2" value="- 계좌Transcation : 계좌Transcation" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
           <mxGeometry y="52" width="866" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UEXY8j-FqXEDNN03uM83-3" value="- 모임통장전환여부 : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-3" value="- 모임통장Transcation : 모임통장Transcation" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
           <mxGeometry y="78" width="866" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UEXY8j-FqXEDNN03uM83-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
           <mxGeometry y="104" width="866" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="UEXY8j-FqXEDNN03uM83-7" value="+ 거래내역일반조회(계좌번호 : String, 고객식별번호 : String, 조회시작일자 : String , 조회종료일자 : String, 거래유형 : String, 거래내역정렬 : String) : ArrayLIst&lt;계좌거래내역&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-7" value="+ 거래내역일반조회(계좌번호 : String, 고객식별번호 : String, 조회시작일자 : String , 조회종료일자 : String, 거래유형 : String, 거래내역정렬 : String) : ArrayLIst&lt;계좌거래내역&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#fad9d5;strokeColor=#ae4132;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
           <mxGeometry y="112" width="866" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UEXY8j-FqXEDNN03uM83-8" value="+ 거래내역상세조회(계좌번호 : String, 거래일자 :String, 거래일련번호 : String) : 계좌거래내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-8" value="+ 거래내역상세조회(계좌번호 : String, 거래일자 :String, 거래일련번호 : String) : 계좌거래내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#fad9d5;strokeColor=#ae4132;" parent="UEXY8j-FqXEDNN03uM83-0" vertex="1">
           <mxGeometry y="138" width="866" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="UEXY8j-FqXEDNN03uM83-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;lt;거래내역조회&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
+        <mxCell id="UEXY8j-FqXEDNN03uM83-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;lt;거래내역조회&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#ffcccc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
           <mxGeometry x="200" y="190" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UEXY8j-FqXEDNN03uM83-20" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
@@ -1754,14 +1754,14 @@
           <mxGeometry y="164" width="409" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7JVgByrb7uKWQGDbU-6d-0" value="계좌거래내역Transaction" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="37L7gK0ANYs0gC062Z_h-1">
-          <mxGeometry x="-190" y="400" width="870" height="70" as="geometry">
+          <mxGeometry x="-170" y="375" width="870" height="70" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7JVgByrb7uKWQGDbU-6d-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7JVgByrb7uKWQGDbU-6d-0">
           <mxGeometry y="26" width="870" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="wfFFf7IM84Qk02qv3j_T-0" value="+ 거래내역일반조회(계좌번호 : String, 고객식별번호 : String, 조회시작일자 : String , 조회종료일자 : String, 거래유형 : String, 거래내역정렬 : String) : ArrayLIst&lt;계좌거래내역&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7JVgByrb7uKWQGDbU-6d-0">
+        <mxCell id="wfFFf7IM84Qk02qv3j_T-0" value="+ 거래내역일반조회(계좌번호 : String, 조회시작일자 : String , 조회종료일자 : String, 거래유형 : String, 거래내역정렬 : String) : ArrayLIst&lt;계좌거래내역&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="7JVgByrb7uKWQGDbU-6d-0">
           <mxGeometry y="34" width="870" height="26" as="geometry" />
         </mxCell>
         <mxCell id="d_2kXIRRu5nBG5k24jpe-0" value="모임통장Transcation" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="37L7gK0ANYs0gC062Z_h-1">
