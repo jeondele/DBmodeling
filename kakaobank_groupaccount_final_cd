@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T17:18:26.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="AwtQ8N_84DzlYdIlazZb" version="14.3.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-14T17:22:08.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="bIkq9s0eVqA810BRHzvL" version="14.3.1" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="2939" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1725,7 +1725,7 @@
           <mxGeometry x="200" y="190" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UEXY8j-FqXEDNN03uM83-20" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
-          <mxGeometry x="1087" y="375" width="80" height="60" as="geometry" />
+          <mxGeometry x="1100" y="150" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i5Lio6IAMNBpKb3SCl5j-0" value="회비입금조회" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="37L7gK0ANYs0gC062Z_h-1" vertex="1">
           <mxGeometry x="1880" y="310" width="409" height="190" as="geometry">
