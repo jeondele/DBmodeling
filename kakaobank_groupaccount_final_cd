@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T12:58:25.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="gjm2TTjsD97BQFpF3VaU" version="14.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-14T13:02:45.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="VeKPzNjYOf2Z-xSdMRk3" version="14.3.1" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="1883" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -489,7 +489,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K3amHGPVW9seScmx_X2F" name="전환변경">
-    <mxGraphModel dx="3414" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2896" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-0" />
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-1" parent="I-U6MJz5Ef5ZJJp-pJTV-0" />
@@ -589,7 +589,7 @@
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-131" value="+ 모임통장가능체크(계좌번호 : String) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="I-U6MJz5Ef5ZJJp-pJTV-129" vertex="1">
           <mxGeometry y="190" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SxZBbUQ_cqrJB88c1AAJ-8" value="+ 비밀번호체크(고객식별번호 : String, 비밀번호 : String) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I-U6MJz5Ef5ZJJp-pJTV-129">
+        <mxCell id="SxZBbUQ_cqrJB88c1AAJ-8" value="+ 비밀번호정합성(고객식별번호 : String, 비밀번호 : String) : boolean&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I-U6MJz5Ef5ZJJp-pJTV-129">
           <mxGeometry y="216" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SxZBbUQ_cqrJB88c1AAJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.502;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="I-U6MJz5Ef5ZJJp-pJTV-129" source="I-U6MJz5Ef5ZJJp-pJTV-129" target="xo-xJMSz3-_64BbkHwlw-18">
@@ -670,7 +670,7 @@
             <mxPoint x="-10.26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xo-xJMSz3-_64BbkHwlw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startSize=16;endArrow=diamondThin;endFill=1;endSize=16;fontColor=#000000;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" source="SD-54l9yIRgQ33Y1WTfk-1" edge="1">
+        <mxCell id="xo-xJMSz3-_64BbkHwlw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startSize=16;endArrow=diamondThin;endFill=1;endSize=16;fontColor=#000000;entryX=0.837;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" source="SD-54l9yIRgQ33Y1WTfk-1" edge="1" target="I-U6MJz5Ef5ZJJp-pJTV-129">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-90" y="-408" as="targetPoint" />
           </mxGeometry>
@@ -1207,7 +1207,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMp4Nc92TpRQ93zK8b2T" name="초대확정">
-    <mxGraphModel dx="1056" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1760" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NdcO6sSQVtjTB7vyrCaH-0" />
         <mxCell id="NdcO6sSQVtjTB7vyrCaH-1" parent="NdcO6sSQVtjTB7vyrCaH-0" />
@@ -1824,7 +1824,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DQEs8zH_u5HGlf3-z0Fj" name="초대">
-    <mxGraphModel dx="2336" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3467" dy="2637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iBjZ0iAyWW4inBTvqAIo-0" />
         <mxCell id="iBjZ0iAyWW4inBTvqAIo-1" parent="iBjZ0iAyWW4inBTvqAIo-0" />
