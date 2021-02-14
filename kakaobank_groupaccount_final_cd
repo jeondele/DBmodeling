@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T12:56:54.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="Ip3wOEXoQgfjxUcYvbZ6" version="14.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-14T12:58:25.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Whale/2.8.108.15 Safari/537.36" etag="gjm2TTjsD97BQFpF3VaU" version="14.3.1" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="종합">
     <mxGraphModel dx="1883" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -543,10 +543,10 @@
           <mxGeometry y="112" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-116" value="" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" vertex="1">
-          <mxGeometry x="-750" y="-1040" width="110" height="20" as="geometry" />
+          <mxGeometry x="-1040" y="-970" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-117" value="모임통장전환" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" vertex="1">
-          <mxGeometry x="-630" y="-1040" width="110" height="20" as="geometry" />
+          <mxGeometry x="-920" y="-970" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-124" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" vertex="1">
           <mxGeometry x="-210" y="870" width="120" height="172" as="geometry" />
@@ -558,7 +558,7 @@
           <mxGeometry x="-827" y="-920" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-127" value="&lt;h1&gt;&amp;lt;Class Diagram&amp;gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" vertex="1">
-          <mxGeometry x="-750" y="-1110" width="220" height="120" as="geometry" />
+          <mxGeometry x="-1040" y="-1040" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="I-U6MJz5Ef5ZJJp-pJTV-129" value="모임통장전환" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" vertex="1">
           <mxGeometry x="-450" y="-402" width="430" height="268" as="geometry">
@@ -701,7 +701,7 @@
         </mxCell>
         <mxCell id="xo-xJMSz3-_64BbkHwlw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=16;endArrow=diamondThin;endFill=1;endSize=16;fontColor=#000000;" parent="I-U6MJz5Ef5ZJJp-pJTV-1" source="jzIBkfgYVM35tR-VCzWQ-0" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="-188" as="targetPoint" />
+            <mxPoint x="350" y="-167" as="targetPoint" />
             <Array as="points">
               <mxPoint x="350" y="-167" />
             </Array>
@@ -1207,7 +1207,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMp4Nc92TpRQ93zK8b2T" name="초대확정">
-    <mxGraphModel dx="1760" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1056" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NdcO6sSQVtjTB7vyrCaH-0" />
         <mxCell id="NdcO6sSQVtjTB7vyrCaH-1" parent="NdcO6sSQVtjTB7vyrCaH-0" />
@@ -1483,7 +1483,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tf59e6poIlH2MulwpWKP" name="최종합">
-    <mxGraphModel dx="2112" dy="2343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1056" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7VqzGg8ptowo2dyJSX_K-0" />
         <mxCell id="7VqzGg8ptowo2dyJSX_K-1" parent="7VqzGg8ptowo2dyJSX_K-0" />
@@ -1814,17 +1814,17 @@
         <mxCell id="IqUYK4BOYKic4DUUP7-W-8" value="+ 거래내역상세조회(String, String, String) : 계좌거래내역&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="IqUYK4BOYKic4DUUP7-W-28" vertex="1">
           <mxGeometry y="294" width="380" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="SvDLow7jDpNg_bBpoLPw-0" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7VqzGg8ptowo2dyJSX_K-1">
+        <mxCell id="SvDLow7jDpNg_bBpoLPw-0" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7VqzGg8ptowo2dyJSX_K-1" vertex="1">
           <mxGeometry x="1330" y="630" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SvDLow7jDpNg_bBpoLPw-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7VqzGg8ptowo2dyJSX_K-1">
+        <mxCell id="SvDLow7jDpNg_bBpoLPw-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7VqzGg8ptowo2dyJSX_K-1" vertex="1">
           <mxGeometry x="2110" y="-120" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="DQEs8zH_u5HGlf3-z0Fj" name="초대">
-    <mxGraphModel dx="3844" dy="2846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iBjZ0iAyWW4inBTvqAIo-0" />
         <mxCell id="iBjZ0iAyWW4inBTvqAIo-1" parent="iBjZ0iAyWW4inBTvqAIo-0" />
